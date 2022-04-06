@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pagina del Chias</title>
+    <meta
+      name="descripcion"
+      content="Este sitio es el primer demo de los Rockstars 8G"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="personal.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="w3-black" >
+        <h1 class="w3-center">Este soy yo</h1>
+      </div> 
+    </div> <!-- Aqui cierra el titulo conteiner fluid-->
+    <div class="container">
+      <div class="row" >
+        <div class="col-6 w3-green">
+          <h2 class="w3-center" > Sebastian Chias Cruz</h2>
+        </div>
+        <div class="col-6 w3-blue"> 
+          <img src="mifoto.JPG" class="w3-left" style="width: 400px;">
+          <h3 class="w3-center">Vida y obra de Sebastian Chias</h3>
+          <p class="w3-center">Nací en 1997, en la ciudad de méxico. Me considero una persona muy sociable, me gusta el cotorreo GGG. Tambien soy muy tolerante y me gusta ayudar a los demás a estudiar, obvio solo con cosas que domino.Este semestre termino la carrera, me gustaría realizar una maestría en ciencia de datos una vez concluya mis créditos escolares.</p>
+          <h4 class="w3-center">Mis Aficiones:</h4>
+          <p class="w3-center">Me gusta caminar / andar en bici por la ciudad y disfruto mucho de tomar cocteles, los mojitos son mis favoritos. Me gusta ve anime/leer manga, en general me gusta mucho ver películas y series, forrest gump es mi película favorita.</p>
+        </div>
+      </div> 
+    </div> <!-- Aqui cierra el titulo conteiner fluid-->
+    <!-- Cuantos años tengo, breve resumen (con personalidad), Motivaciones personales -->
+    <!-- Recurso del DOM  -->
+    <!-- Fibonacci (1,0) (2,1) (3,1) (4,2) (5,3) (6,5)-->
+    <div class="container">
+      <div class="w3-center">
+        <h2>Este es el calculo fibonacci</h2>
+      <input type="text" id="inputFibo" />
+      <button onclick="fibo()">Aceptar</button>
+      <div id="fiboContainer" style="font-size: larger;"></div>
+      </div>
+    </div>
+    <!-- Factorial (0!,1) (1!,1) (2!,1*2=2) (3!,1*2*3=6) (4!,1*2*3*4=24) (5!,1*2*3*4*5=120)-->
+    <div class="container">
+      <div class="w3-center">
+        <h2>Este es el calculo factorial</h2>
+      <input type="text" id="inputfac" />
+      <button onclick="fac()">Aceptar</button>
+      <div id="fak" style="font-size: larger;">
+      <h1 id="numero"></h1>
+      </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="index.js"></script>
+  </body>
+</html>
